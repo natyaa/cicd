@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
     inputs:
       nama_siswa:
-        description: 'Naura Athaayaa Kamiil'
+        description: 'Tulis nama kamu'
         required: true
-        default: 'Siswa TJKT'
+        default: 'Naura Athaayaa Kamiil'
 
 jobs:
   test:
